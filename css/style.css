@@ -63,4 +63,37 @@ h3 {
   margin-left: 3%;
   margin-right: 3%;
   padding-left: 3%;
+  border-radius: 2%;
+}
+
+#full-stack-web-developer {
+  border-left: 7px solid tomato;
+}
+
+#baby-web-developer {
+  border-left: 7px solid blue;
+}
+
+footer p {
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20%;
+  background-color: rgb(251, 243, 243);
+  z-index: 10000;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+}
+
+.navbar a {
+  text-decoration: none;
+  display: block;
+  padding: 20px 40px;
+  border-radius: 5%;
+  color: rgb(70, 154, 111);
 }
